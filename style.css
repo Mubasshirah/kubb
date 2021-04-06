@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type:none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+.clr{
+    clear: both;
+}
+/*============navbar part css============*/
+.logo{
+    width: 170px;
+    float: left;
+ 
+}
+.menu{
+    width: 1000px;
+    float: right;
+   text-align: right;
+}
+.logo img{
+    padding-top: 35px;
+}
+.menu ul li{
+    display: inline-block;
+
+}
+.menu ul li a{
+    padding: 0 21px;
+    line-height: 90px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    font-weight: 700;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+#navbar{
+    background-color: rgba(0, 0, 0, 0.44);
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 9999;  
+}
+.menu ul li a:hover{
+    color: #28b8d8;
+ 
+}
+/*========banner==========*/
+#banner{
+    background: url(../images/kubb.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 331px;
+    padding-bottom: 251px;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.banner-content h3{
+    font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+padding-bottom: 5px;
+}
+.banner-content p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+   
+  }
+ /*========intro========*/ 
+#intro{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.intro-text{
+    text-align: center;
+    
+}
+ .intro-text h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #444;
+    padding-bottom: 20px;
+}
+.intro-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+
+}
+/*========services=======*/
+#service{
+    padding-bottom: 84px;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.heading h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #444;
+    text-transform: uppercase;
+  
+}
+.service-item{
+    width: 370px;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    box-sizing: border-box;
+}
+.service-item img{
+    width: 100%;
+}
+.service-item h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #444;
+    padding-top: 16px;
+}
+.service-item p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    padding: 0 16px;
+    padding-top: 4px;
+}
+.mid-service{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*=========gallery===========*/
+#gallery{
+    background-color: #2c2c2c;
+    padding-bottom: 48px;
+}
+.gal-heading{
+    padding-top: 50px;
+    padding-bottom: 44px;
+}
+.gal-heading h2{
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+}
+.gal-heading h2:before{
+    position: absolute;
+    content: '';
+    width: 102px;
+height: 1px;
+background-color: #535353;
+left: -115px;
+top: 50%;
+transform: translateY(-50%);
+
+}
+.gal-heading h2:after{
+    position: absolute;
+    content: '';
+    width: 102px;
+height: 1px;
+background-color: #535353;
+right: -115px;
+top: 50%;
+transform: translateY(-50%);
+
+}
+.gallery-item{
+    width: 25%;
+    float: left;
+}
+.gallery-item img{
+    width: 100%;
+}
